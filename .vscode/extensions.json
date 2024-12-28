@@ -1,3 +1,7 @@
 {
-  "recommendations": ["Vue.volar"]
+  "recommendations": [
+    "Vue.volar",
+    "streetsidesoftware.code-spell-checker-french",
+    "ms-ceintl.vscode-language-pack-fr"
+  ]
 }
