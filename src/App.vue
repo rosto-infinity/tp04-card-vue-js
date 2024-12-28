@@ -46,8 +46,15 @@ const roles = ref([
 ]);
 
 const selectRole = (index:number) => {
+  const role= roles.value[index] ;
+if(role.active)
+{
+  role.active=false;
+  return;
+}
+
   roles.value.forEach((role)=>(role.active =false));
-  roles.value[index].active =true;
+  role.active=true;
 }
 </script>
 
