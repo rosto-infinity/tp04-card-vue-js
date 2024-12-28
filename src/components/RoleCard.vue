@@ -9,6 +9,7 @@
   </div>
 </template>
 
+// Ce script permet de définir les propriétés de la carte de rôle
 <script setup lang="ts">
 defineProps<{
   title: string;
